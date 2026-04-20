@@ -64,6 +64,7 @@ const onxrloaded = () => {
   XR8.XrController.configure({
     imageTargetData: [
       require('../image_targets/target1.json')],
+    disableWorldTracking: true,
   })
 }
 
