@@ -73,6 +73,7 @@ const config = {
   devServer: {
     open: false,
     compress: true,
+    server: 'https',
     hot: true,
     liveReload: false,
     headers: {
