@@ -47,7 +47,8 @@ const config = {
           noErrorOnMissing: true,
         },
         {
-          from: path.join(rootPath, 'image-targets'),
+          // target1.json uses paths like "image-targets/target1_luminance.jpg"
+          from: path.join(rootPath, 'image_targets'),
           to: path.join(distPath, 'image-targets'),
           noErrorOnMissing: true,
         },

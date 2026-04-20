@@ -32,10 +32,13 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "disabled",
+          "desktop": "AR",
           "xrCameraType": "world",
           "headset": "disabled",
-          "phone": "AR"
+          "phone": "AR",
+          "world": {
+            "disableWorldTracking": false
+          }
         }
       },
       "components": {},
